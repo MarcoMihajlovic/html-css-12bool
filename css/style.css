@@ -1,0 +1,38 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row {
+  background-color: lightpink;
+}
+
+p {
+  text-align: center;
+}
+
+[class*="col-"] {
+  min-height: 300px;
+  position: relative;
+  border: 1px solid black;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+[class*="col-"] > .row {
+  height: 100%;
+}
+
+[class*="col-"] > .row > [class*="col-"] {
+  background-color: mediumvioletred;
+  border: 1px solid white;
+}
+
+.padding {
+  padding: 10px;
+}

@@ -29,7 +29,7 @@ p {
 }
 
 [class*="col-"] > .row > [class*="col-"] {
-  background-color: mediumvioletred;
+  background-color: #ff8e9f;
   border: 1px solid white;
 }
 
